@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>About | Indraprastha</title>
+    <style>
+        #about-img-png {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+        }
+
+        @keyframes runningBorder {
+         0% {
+         border-color: red;
+         }
+         25% {
+         border-color: blue;
+         }
+         50% {
+         border-color: green;
+         }
+         75% {
+         border-color: yellow;
+         } 
+         100% {
+         border-color: red;
+         }
+        }
+        #about-img-png img {
+            width: 550px;
+            height: 110%;
+            border-radius: 2%;
+            margin-top: 3%;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: 0 0 30px #333;
+            border-radius: 30px 10px 30px 10px;
+            border: 2px solid red; 
+            animation: runningBorder 4s infinite;
+        }
+
+        #about {
+            margin-top: 2%;
+        }
+
+        #about h2 {
+            font-size: 3rem;
+        }
+
+        .row p {
+            text-align: center;
+        }
+
+        .row h3 {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./images/logo-indraprastha.png" alt="logo-indraprastha" width="200px" height="130px">
+            <h2 class="logo"><a href="index.html">Book My Camping</a></h2>
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="all-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="tel:+918421222627" target="_blank"><i class="fa-solid fa-phone"></i>
+                        &nbsp;&nbsp;&nbsp;Call Us</a>
+                </li>
+                <li><a class="whatsapp" href="https://wa.me/8421222627" target="_blank"><i
+                            class="fas fa-brands fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;Whatsapp</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <h1>About Us</h1><br>
+        <p>Escape the hustle and bustle of city life and immerse yourself in the tranquility of nature at Indraprastha Dream World, your perfect camping destination near Daund. Nestled in the heart of nature, our campsite offers a rejuvenating experience with day and night camping options, complemented by a picturesque lake and cozy tent housing.</p>
+        <div id="about-img-png">
+            <img src="./images/tent.png" alt="">
+        </div>
+        <br><br>
+        <hr class="style-one">
+
+        <div class="row company-info">
+            <h3>Our Story</h3>
+            <p>Established with a passion for creating memorable outdoor experiences, 
+                Indraprastha Dream World is the brainchild of nature enthusiasts who sought to 
+                share the serene beauty of our surroundings with fellow adventure seekers.
+                 Our journey began with a vision to create a haven where individuals,
+                  families, and friends could reconnect with nature and each other.
+                It's not just Camping; it's a vision turned into reality. 
+                Founded by nature enthusiasts who sought to create a haven away from the chaos of daily life, 
+                our campsite near Daund is a testament to our commitment to providing a sanctuary for
+                 those who crave a connection with nature.</p>
+        </div>
+
+        <div class="row mission-vision">
+            <h3>Our Mission</h3>
+            <p>At Indraprastha Dream World, our mission is to offer a respite from the ordinary and encourage a deep appreciation for the great outdoors. 
+                We strive to create an environment where individuals and families can immerse themselves in the beauty of nature,
+                 fostering a sense of adventure, relaxation, and community.Our commitment is to offer exceptional camping experiences, 
+                 blending comfort with the raw beauty of natural landscapes.</p>
+
+            <h3>Our Vision</h3>
+            <p>At Indraprastha Dream World, our vision is to be a beacon of sustainable and immersive outdoor experiences, where individuals and communities reconnect with the natural world. We strive to create a haven that inspires a deep appreciation for nature, fosters personal well-being, and promotes environmental stewardship.</p>
+            <h3>Visit Us</h3>
+            <p>Indraprastha Dream World<br>
+                Raghobanagar,<br>
+                Girim, Daund <br> 
+                Pune - 413801<br>
+                India</p><br>
+                
+                <p >For precise directions and location details, feel free to use our GPS coordinates:<p><a href="https://maps.app.goo.gl/3EJEXfgdCKEiwCWNA" target="_blank" style="font-style: italic;color: blue;">Visit On Google Map</a> </p></p><br>
+                
+                <p>If you have any inquiries, please contact us at <br><i class="fas fa-phone"></i>+91 8421222627</p>
+            </div>
+              
+            <div>
+                <h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: hsl(345, 93%, 11%);">We look forward to welcoming you to Indraprastha Dream World for an unforgettable camping experience!</h3>
+            </div>
+                 
+                 
+        
+
+        <br><br>
+        <div id="HowToReach" class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.2723913002765!2d74.5428125!3d18.4259375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc3137751c5e309%3A0x32ed44c277151d60!2sIndraprastha%20fish%20farm!5e0!3m2!1smr!2sin!4v1706877309166!5m2!1smr!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a
+                    href="https://maps.app.goo.gl/3EJEXfgdCKEiwCWNA">Connections Game</a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 400px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 400px;
+                }
+
+                .gmap_iframe {
+                    height: 400px !important;
+                }
+            </style>
+        </div>
+        <br><br>
+    </section>
+    <footer>
+        <div class="footer">
+            <span class="link">
+                <a href="#"><i class="fa-solid fa-house fa-sm"></i></a>
+                <a href="https://www.instagram.com/indraprastha_dream_world?igsh=MXZqemtrbnNqajV2NQ==" target="_blank"><i
+                        class="fas fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/8421222627" target="_blank"><i class="fas fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:indraprasthadreamworld@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+918421222627" target="_blank"><i class="fa-solid fa-phone fa-sm"></i></a>
+            </span>
+            <p>Copyright © 2018 All Rights Reserved By Indraprastha</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Indraprastha</title>
+
+    <!-- special tags -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W7P9GJPF');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0YMN4W8BE6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0YMN4W8BE6');
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gallery {
+            border: 1px solid #f4ebeb;
+        }
+
+        div.gallery img:hover {
+            border: 2px solid #03055e;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 20rem;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .responsive {
+            padding: 0 1rem;
+            float: left;
+            width: 33.33%;
+            overflow: hidden;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+
+        @media only screen and (max-width: 768px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+
+            div.gallery {
+                border: 1px solid rgb(95, 94, 94);
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: 15rem;
+            }
+
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+
+            div.gallery img {
+                width: 100%;
+                height: 15rem;
+            }
+        }
+
+        .topSpace {
+            margin: 6rem 0 2rem 0;
+            color: #013e3e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./images/logo-indraprastha.png" alt="logo-indraprastha" width="200px" height="130px">
+            <h2 class="logo"><a href="index.html">Book My Camping</a></h2>
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="all-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="index.html#contact">Contact Us</a></li>
+                <li><a href="tel:+918421222627" target="_blank"><i class="fa-solid fa-phone"></i>
+                        &nbsp;&nbsp;&nbsp;Call Us</a>
+                </li>
+                <li><a class="whatsapp" href="https://wa.me/8421222627" target="_blank"><i
+                            class="fas fa-brands fa-whatsapp"></i>&nbsp;&nbsp;&nbsp;Whatsapp</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="topSpace"> Gallery</h1>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery1.jpg">
+                <img src="./images/gallery1.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Cozy Retreats in Our Lakeside Tents</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery2.jpg">
+                <img src="./images/gallery2.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Embrace the Tranquility of Nature</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery3.jpg">
+                <img src="./images/gallery3.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Jeep Rides Through Nature's Playground</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery4.jpg">
+                <img src="./images/gallery4.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">Gourmet Delights: Savory Meals to Satisfy Your Camping Appetite</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery5.jpg">
+                <img src="./images/gallery5.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Unwind and Recharge: Serene Retreats for Total Relaxation</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery6.jpg">
+                <img src="./images/gallery6.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Discover Adventure: Great Outdoors with Thrilling Jeep Rides</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery7.jpg">
+                <img src="./images/gallery7.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Step Back in Time: Enjoying Charm of Bullock Cart Rides</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery8.jpg">
+                <img src="./images/gallery8.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Nature's Playground: Outdoor Fun for All Ages</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery9.jpg">
+                <img src="./images/gallery9.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc"> Get Up Close with Our Friendly Pet Farm</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery10.jpg">
+                <img src="./images/gallery10.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Explore Serene Waters with Boating Adventures</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery11.jpg">
+                <img src="./images/gallery11.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Groove Under Stars: DJ Nights to Light Up Your Evenings</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery12.jpg">
+                <img src="./images/gallery12.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Sizzle and Smoke: Indulge in Delicious BBQ Delights</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery13.jpg">
+                <img src="./images/gallery13.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Rural Retreat: Experience Charm of Our Farm Sanctuary</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery14.jpg">
+                <img src="./images/gallery14.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Refreshing Swims Await at Our Poolside Oasis</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/gallery15.jpeg">
+                <img src="./images/gallery15.jpeg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Satellite View of Our Campsite Map</div>
+        </div>
+    </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a href="./images/gallery16.jpeg">
+                    <img src="./images/gallery16.jpeg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">The Tents is place in the Garden.</div>
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/hut.jpeg">
+                <img src="./images/hut.jpeg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Cozy Retreats: Experience Tranquility in Our Charming Huts</div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="./images/theator.png">
+                <img src="./images/theator.png" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Drive-In Cinema: Your Personal Theater on Wheels</div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <span class="link">
+                <a href="#"><i class="fa-solid fa-house fa-sm"></i></a>
+                <a href="https://www.instagram.com/indraprastha_dream_world?igsh=MXZqemtrbnNqajV2NQ==" target="_blank"><i
+                        class="fas fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/8421222627" target="_blank"><i class="fas fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:indraprasthadreamworld@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                <a href="tel:+918421222627" target="_blank"><i class="fa-solid fa-phone fa-sm"></i></a>
+            </span>
+            <p>Copyright © 2018 All Rights Reserved By Indraprastha</p>
+        </div>
+    </footer>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7P9GJPF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>
